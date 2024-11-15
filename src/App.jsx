@@ -1,12 +1,11 @@
 import { useState } from 'react'
-import languages from '../languages.js'
 import AppHeader from './components/AppHeader.jsx'
-import AppMain from './src/components/AppMain.jsx'
+import AppMain from './components/AppMain.jsx'
 import './App.css'
 
 function App() {
 
-  const [active, setActive] = useState(0)
+  //const [active, setActive] = useState(0)
   // function handleClick(e) {
   //   console.log(e.target);
   //   const newActive = Number(e.target.getAttribute('data-index'))

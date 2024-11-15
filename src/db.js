@@ -1,4 +1,5 @@
-export default [
+
+const languages = [
     {
         id: 1,
         title: "HTML",
@@ -30,3 +31,4 @@ export default [
         description: "ReactJS è una libreria JavaScript per costruire interfacce utente, in particolare applicazioni a pagina singola. Consente agli sviluppatori di creare componenti UI riutilizzabili e di gestire efficacemente lo stato dell'applicazione."
     }
 ];
+export default

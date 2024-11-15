@@ -1,14 +1,22 @@
 import { useState } from 'react'
 import languages from './db.js'
+import AppHeader from './assets/components/AppHeader.jsx'
 
 import './App.css'
+import AppHeader from './assets/components/AppHeader.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-      div
+      < AppHeader />
+      < AppMain />
+      < AppFooter />
+
+
+
+
 
     </>
   )

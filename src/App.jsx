@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import languages from './languages.js'
-import AppHeader from './assets/components/AppHeader.jsx'
-import AppMain from './assets/components/AppMain.jsx'
+import AppHeader from './components/AppHeader.jsx'
+import AppMain from './components/AppMain.jsx'
 import './App.css'
 
 function App() {

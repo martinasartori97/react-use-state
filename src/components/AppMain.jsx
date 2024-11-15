@@ -1,6 +1,9 @@
-import languages from './languages'
+import languages from '../languages'
 
 export default function AppMain() {
+
+
+
 
     function handleClick(e) {
         console.log(e.target);

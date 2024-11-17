@@ -26,7 +26,7 @@ export default function AppMain() {
                 <div className="accordion">
                     {languages.map((language, index) => (
                         <div className="accordion-item" key={language.id}>
-                            <h2 onClick={handleClick} data-index={index}> {language.title}</h2>
+                            <button onClick={handleClick} data-index={index}> {language.title}</button>
                             <div className={active == index ? 'active' : 'hide'}>
                                 {language.description}
 

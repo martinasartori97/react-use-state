@@ -7,17 +7,20 @@
 h1 {
   padding-top: 2rem;
   padding-bottom: 1rem;
+  padding-left: 3rem;
 }
 
 button {
   border-radius: 50px;
   padding: 0.5rem 0.5rem;
 
+
 }
 
 .hide {
   padding-top: 1rem;
   padding-bottom: 1rem;
+
 
 
 }
